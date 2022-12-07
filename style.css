@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+  background: linear-gradient(to bottom left, #2892C1 0%, #E53C83 100%);
+  background-repeat: no-repeat;
+}
+
+
+nav{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+nav ul{
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+
+ul li{
+  display: inline-block;
+}
+
+
+ul li a{
+  display: block;
+  padding: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 35, 122, 0.7);
+}
+
+
+/*---------------------------------------Responsive Website--------------------------------*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  ul li{
+     display: block;
+  }
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  ul li{
+     display: block;
+  }
+  
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  ul li{
+     display: block;
+  }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  ul li{
+     display: block;
+  }
+
+}
+
+
+@media (min-width: 275px) and (max-width: 320px) {
+  
+  ul li{
+     display: block;
+  }
+
+}
